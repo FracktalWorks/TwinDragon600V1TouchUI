@@ -99,16 +99,16 @@ filaments = [
 filaments = OrderedDict(filaments)
 
 #values before 2020 changes
-calibrationPosition = {'X1': 63, 'Y1': 67, #110, 18
-                       'X2': 542, 'Y2': 67, #510, 18
-                       'X3': 303, 'Y3': 567, #310, 308
-                       'X4': 303, 'Y4': 20
+calibrationPosition = {'X1': 105, 'Y1': 3,
+                       'X2': 507, 'Y2': 3,
+                       'X3': 304, 'Y3': 267,
+                       'X4': 304, 'Y4': 127
                        }
 
-tool0PurgePosition = {'X': -27, 'Y': -112}
-tool1PurgePosition = {'X': 648, 'Y': -112}
+tool0PurgePosition = {'X': -20, 'Y': 112}
+tool1PurgePosition = {'X': 628, 'Y': 112}
 
-ptfeTubeLength = 2400 #2400 for 600x600, 1500 for 600x300 keep as multiples of 300 only
+ptfeTubeLength = 1500 #2400 for 600x600, 1500 for 600x300 keep as multiples of 300 only
 
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
